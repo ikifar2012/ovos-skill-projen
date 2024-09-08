@@ -28,7 +28,7 @@ export interface OVOSSkillProjectOptions extends GitHubProjectOptions {
   readonly pypiName?: string;
   /**
    * The name of the directory containing the skill's code.
-   * @default "" (root)
+   * @default "src" (root)
    * @example "src"
    * @example "hello_world_skill"
    */
